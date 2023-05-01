@@ -93,7 +93,10 @@ This could be useful, I thought to myself. I'm working with tracker pipelines, a
 
 ![image](https://user-images.githubusercontent.com/9099847/235521067-15d19d3e-7bd4-43d0-a447-a7252ac45d09.png)
 
-Great. This is exactly what I need! Poisson, Poiseuille, it doesn't even matter guy I can get this to work. My spreadsheet has running averages and tentative/expected/confirmed start and completion dates for every asset and work bucket. This means two points for every section (start/end of each bucket) and two points for sending the work between buckets, across (6 or so buckets for the purpose of this writing, but closer to 12), and about 150 rows (assets). That's my ΔP.
+Great. This is exactly what I needed! Poisson, Poiseuille, it doesn't even matter guy I can get this to work. My spreadsheet has running averages and tentative/expected/confirmed start and completion dates for every asset and work bucket. This means two (start/end) points for every section or bucket and two points for sending the work between buckets (from one team to the next team), across (6 or so buckets for the purpose of this writing, but closer to 12), and about 150 rows (assets). That's my ΔP. (There is also the reminder that not all pipelines are similar, and some buckets are skipped or concurrent buckets can begin depending on the asset. Let's hold that that thought aside for now).
+
+> So to re-iterate with the ΔP on our Hagen-Poiseuille equation (is it lunch yet?)
+
 
 >Example: T1 > |Team 1 start date (T1s)> Team 1 end date (T1e)| > T2 | Team 2 start date (T2s) > Team 2 end date (T2e) | > T3
 
@@ -101,17 +104,11 @@ The fluid viscosity (µ) would be similar to the difficulty rating created earli
 
 The length of the pipe (L) is the amount of time for one team to send the work to the subsequent team.
 
-The pipe radius, R, would be our FTE (Full Time Equivalent) - or basically a numeric representation of the amount of man-hours available at any point in time (for each category).
+The pipe radius, R, would be our FTE (Full Time Equivalent) - or basically a numeric representation of the amount of man-hours available at any point in time (for each category). We have project hours logged thanks to PPM, this part  should be easy. [Radius vs diameter. 2d vs 3/4d in EE time]
 
-The volumetric flow rate, Q is the amount of time it takes for the fluid to reach the End point from the Start point. (We can also apply this for determining the time it takes inside the bucket such as T1s>T1e as opposed to between buckets bucket-transfer T1 > T2).
-
-
+The volumetric flow rate, Q is the amount of time it takes for the fluid to reach the End point from the Start point. (We can also apply this for determining the time it takes inside the bucket such as T1s > T1e as opposed to between buckets (or bucket-transfer) T1 > T2). Now I just need to explain this to the leadership team! I think they'll be impressed.
 
 
-
-
-
-#
 
 [Excel functions]
 
