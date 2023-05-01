@@ -1,4 +1,4 @@
-# Predicting-Work-Efficiency
+# Predicting-Work-Efficiency at Work
 Work project utilizing Hagen-Poiseuille equation and 4-dimensional models to predict efficiency-per-team completion rate of a corporate data management project.
 
 ## Abstract
@@ -44,15 +44,20 @@ Having not utilized statistics in a corporate environment before (but with adequ
 I set off to build a spreadsheet to be used as a supplement to the tracker. This would import the start/completion dates for each of the sections. With my inexperience, I had my little mind set on determining the average completion time required for each of the work sections; such as - what is the average time it takes to onboard a new asset team to our project from the start of it at onset? The more I thought about it, the more complicated it became. Onboarding an app could take as little as an hour (based on our Excel dates, 1 day). When scheduling a meeting for another app, it might not be until next week Thursday that we meet (let's say 8 days from now, so 8 days effort). If I take the average, the result might be the same effort (1 hours' time) but a different elapsed time. ***head scratch*** But the actual work would still take 1 hour. How do I relate that paradigm? There is actual work or effort being done or completed, and there is the amount of time that needs to pass for completion.
 
 # The Inexperience
-At this point I am not consciously aware of the complexity of what I am now trying to accomplish. I am setting out to determine how much work each of the engineers among many others are actually accomplishing, in addition to how much time it takes for them to inform us of such. Useful, right? Not only this - I could even track how the individual-not-the-team lags in relation to his or her peers, but also the response rate for any other team they operate with. (Example: If a security team is particularly slow with the DBA's but not with the app dev's, we could investigate this numeric animosity for even more accurate results). I'll be a manager by midnight!
+At this point I am not consciously aware of the complexity of what I am now trying to accomplish. I am setting out to determine how much work each of the engineers among many others are completing daily (an important metric in a still-at-waterfall world), in addition to how much time it takes for them to inform us of such work being done. Useful, right? Not only this - I could then track how the individual-not-the-team lags in relation to his or her peers, and also the response rate for any other team they operate with. (Example: If a security team is particularly slow with the DBA's but not with the app dev's, we could investigate this numeric animosity for even more accurate results). I'll be a manager by midnight!
 
 > At this point, I start to be thankful for the senior engineers I worked with at the time and the patience involved on their part. :D
 
 # The Ingenuity
 --
 
-For those that utilize Agile, this may sound more and more familiar. It's humorous to me today (even with the project being Agile or Kanban inspired), and it feels a little like creating an early Jira/* dashboard for today's corporate environment. In the end, I like my version just a little bit more. :)
-
 
 # The Outcome
+
+For those that utilize Agile, this story may have sounded more and more familiar. It's humorous to me today (even with the project having been Agile or Kanban inspired already). The original intent still feels to me a little like creating an early Jira/Confluence dashboard (or at least the inspiration behind the movement) - prior to knowing what Agile even was. As I have become a more experienced analyst and developer, I plan to keep the inexperience and ingenuity and somehow apply it in a more professional and experienced fashion.
+
+Thanks for reading.
+
+-Pedro
+
 
