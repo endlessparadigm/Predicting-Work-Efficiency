@@ -33,25 +33,48 @@ We have the dates for when an application begins or completes any of the above s
 
 As a new contractor/intern, I wanted to stand out as a competent analyst and thought we could find a way to predict the date of completion of each of all of these assets. With all of the data being gathered, I could not only predict when an asset was to be completed, but also how busy each of the teams would be at any given time (based on all of the assignments in their list, and the dates in which the planned work would fall in their bucket). 
 
+
 I could then use that information as a dependency to predict the progress of subsequent applications and ideally formulate an overall project completion date! Not only that, we could even change the order of all of the work to make sure it gets completed even quicker. They'll love me definitely! Given that it was a multi-year project, I would assume it would prove useful. (It was!)
 
 # The Complication
 Having not utilized statistics in a corporate environment before (but with adequate math experience), I begin to search on how to apply predictive analytics based on existing data. One finds themselves quickly immersed in a complicated realm of wikipedia and statistics tutorials. Should I really be using these funny equations to predict when the app guy is finished setting up our folder permissions for Database XYZ?
 
-> Further complexity
+I set off to build a spreadsheet to be used as a supplement to the tracker. This would import the start/completion dates for each of the sections. With my inexperience, I had my little mind set on determining the average completion time required for each of the work sections; such as - what is the average time it takes to onboard a new asset team to our project from the start of it at onset? 
 
->There is additional complexity involved the project. Not all assets utilize all work assignments. Some assets have no work assignments but need to be logged. 
+The more I thought about it, the more complicated it became. Onboarding an app could take as little as an hour (based on our Excel dates, 1 day). When scheduling a meeting for another app, it might not be until next week Thursday that we meet (let's say 8 days from now, so 8 days effort). If I take the average, the result might be the same effort (1 hours' time) but a different elapsed time. ***head scratch*** But the actual work would still take 1 hour. How do I relate that paradigm? There is actual work or effort being done or completed, and there is the amount of time that needs to pass for completion.
 
-# The Development
-I set off to build a spreadsheet to be used as a supplement to the tracker. This would import the start/completion dates for each of the sections. With my inexperience, I had my little mind set on determining the average completion time required for each of the work sections; such as - what is the average time it takes to onboard a new asset team to our project from the start of it at onset? The more I thought about it, the more complicated it became. Onboarding an app could take as little as an hour (based on our Excel dates, 1 day). When scheduling a meeting for another app, it might not be until next week Thursday that we meet (let's say 8 days from now, so 8 days effort). If I take the average, the result might be the same effort (1 hours' time) but a different elapsed time. ***head scratch*** But the actual work would still take 1 hour. How do I relate that paradigm? There is actual work or effort being done or completed, and there is the amount of time that needs to pass for completion.
 
 # The Inexperience
-At this point I am not consciously aware of the complexity of what I am now trying to accomplish. I am setting out to determine how much work each of the engineers among many others are completing daily (an important metric in a still-at-waterfall world), in addition to how much time it takes for them to inform us of such work being done. Useful, right? Not only this - I could then track how the individual-not-the-team lags in relation to his or her peers, and also the response rate for any other team they operate with. (Example: If a security team is particularly slow with the DBA's but not with the app dev's, we could investigate this numeric animosity for even more accurate results). I'll be a manager by midnight!
+At this point I am not consciously aware of the complexity of what I am now trying to accomplish. I am setting out to determine how much work each of the engineers among many others in the company are completing daily (an important metric in a still-at-waterfall world), in addition to how much time it takes for them to inform us of such work being done. Useful, right? Not only this - I could then track how the individual-not-the-team lags in relation to his or her peers, and also the delay in response to the work effort for any other team they operate with. (Example: If a security team is particularly slow with the DBA's but not with the app dev's, we could investigate this numeric animosity for even more accurate results). I'll be a manager by midnight!
 
 > At this point, I start to be thankful for the senior engineers I worked with at the time and the patience involved on their part. :D
 
+# The Development
+
+After a few weeks of working on my little side project. I now had a few tables laid out featuring some neat things:
+
+Charts and graphs!
+> This included Burndown rate for different categories of apps, an overall completion date, and estimate of when the budget would run out.
+
+
+Logic tables built into Excel. Not every asset requires every project step. This was asset category dependent. I took that into consideration.
+> These logic tables were set up to define which section(s) are required for different assets on the tracker (asset category dependent). This way the Excel function would know what to calculate for an asset. IF(VeganDish,NoMeatCalc)
+
+
+A lot of Excel functions meant for standard deviation and averages.
+> Maybe soon I'll find the correct analytics to apply and get a more accurate result!
+
+A lot of unfinished (really quite many) worksheets trying to tie everything else together.
+> We'll get there soon!
+
+
 # The Ingenuity
 --
+> Further complexity
+>There is additional complexity involved the project. Not all assets utilize all work assignments. Some assets have no work assignments but need to be logged. 
+
+> Many extremely complicated Excel functions taking into consideratio
+# The Result
 
 
 # The Outcome
