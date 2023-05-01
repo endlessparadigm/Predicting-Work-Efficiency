@@ -85,20 +85,37 @@ I resort again to Google, in hopes of finding the correct statistical regression
 
 > Editor's note:  Poisson distribution [Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution) is part of probability theory, and the Hagen–Poiseuille equation [Wikipedia](https://en.wikipedia.org/wiki/Hagen%E2%80%93Poiseuille_equation), is Fluid Dynamics. 
 
-In my coffee-enduced state, I focused on the Physics equation instead of the probability theory as a means of my solution. (I only came to the realization of this mistake very recently, and was my inspiration of this write up).
+In my coffee-induced state, I focused on the Physics equation instead of the probability theory as a means of my solution. (I only came to the realization of this mistake very recently, and was my inspiration of this write up). 
+
+![image](https://user-images.githubusercontent.com/9099847/235520883-5ea5fd1c-9d53-4e1f-800b-d267819cc3e2.png)
+
+This could be useful, I thought to myself. I'm working with tracker pipelines, and thinking of workflows. How do I incorporate this to my cute spreadsheet?
+
+![image](https://user-images.githubusercontent.com/9099847/235521067-15d19d3e-7bd4-43d0-a447-a7252ac45d09.png)
+
+Great. This is exactly what I need! Poisson, Poiseuille, it doesn't even matter guy I can get this to work. My spreadsheet has running averages and tentative/expected/confirmed start and completion dates for every asset and work bucket. This means two points for every section (start/end of each bucket) and two points for sending the work between buckets, across (6 or so buckets for the purpose of this writing, but closer to 12), and about 150 rows (assets). That's my ΔP.
+
+>Example: T1 > |Team 1 start date (T1s)> Team 1 end date (T1e)| > T2 | Team 2 start date (T2s) > Team 2 end date (T2e) | > T3
+
+The fluid viscosity (µ) would be similar to the difficulty rating created earlier. A more viscous fluid would take more time between points. 
+
+The length of the pipe (L) is the amount of time for one team to send the work to the subsequent team.
+
+The pipe radius, R, would be our FTE (Full Time Equivalent) - or basically a numeric representation of the amount of man-hours available at any point in time (for each category).
+
+The volumetric flow rate, Q is the amount of time it takes for the fluid to reach the End point from the Start point. (We can also apply this for determining the time it takes inside the bucket such as T1s>T1e as opposed to between buckets bucket-transfer T1 > T2).
+
+
+
+
+
+
+
+#
 
 [Excel functions]
 
-A few ideas come to mind. Let's create a new property called DifficultyRating which we can then assign to each of the assets. This should be a one time request from the PM's, and I'm pretty familiar with a lot of these by now anyway. This property can then be utilized to affect the skew or probability of best-case/worst-case scenario of each prediction.
 
-
-
-
-
-
-> Further complexity
-
-> Many extremely complicated Excel functions taking into consideration
 # The Result
 
 
