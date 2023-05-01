@@ -14,7 +14,7 @@ It's 2014. At this point I am a simple intern with 6 months of corporate experie
 
 # The Challenge
 
-The project is being very well tracked. Each of the 200+ applications have a pipeline or track for the different IT teams (Security, App Devs) involved for their part of the work to be completed. This was operating similar to Agile, shortly before it became more popular in today's corporate environment.
+The project is being very well tracked. Each of the 200+ applications have a pipeline or track for the different IT teams (such as Security, App Devs) involved for their part of the work to be completed. This was operating similar to Agile, shortly before it became more popular in today's corporate environment.
 
 For example:
 
@@ -67,12 +67,36 @@ A lot of Excel functions meant for standard deviation and averages.
 A lot of unfinished (really quite many) worksheets trying to tie everything else together.
 > We'll get there soon!
 
+A few additional ideas came to mind. Let's create a new property called DifficultyRating which we can then assign to each of the assets. This should be a one time request from the PM's, and I'm pretty familiar with a lot of these by now anyway. This property can then be utilized to affect the skew or probability of best-case/worst-case scenario of each prediction.
+
+Time to re-think what still remains. I have averages and standard deviation applied to all assets. I have difficulty rating as a means to include a weighted average to these estimates based on the variety of applications involved. This results in a range of possible completion times for each and every asset. This means the expected completion date can be calculated for any category on the tracker. 
+
+I am also taking running averages of everything, meaning that every week that passes with new completion and start dates, the more data we have on the tracker. The completion date also gets updated automatically. Basically, the more deliverables that are completed based on total known deliverables, would ultimately result in a guarantee of finished project deliverables when the last deliverable is completed. A satisfying feeling indeed. Phew.
+
+With the tracker about finished (ha!) we now have a tentative completion date set for each category (such as Security) for all of our assets. But, if our App Team teams needs security to be completed prior to starting their part, and assuming we are calculating forward (meaning Security hasn't started, but we know how much time they may take) shouldn't there be a way to predict when the dependent team (in this case, App team) should expect the work to arrive based on our calculations? Is this what a data pipeline is? By now I am just becoming familiar with the term scope creep as I try not to blush at the thought of my spreadsheet during the  meeting. 
 
 # The Ingenuity
---
-At this point the word probability becomes more apparent in my mind. Because, that's what statistics is, right? I should add probability here somewhere. What is the probability that an asset will be completed at point or another? As I scroll through hundreds of cells and columns 
+
+By this point in the story the word probability becomes more apparent in my mind. Because, that's what statistics is, kind of, right? I should add probability here somewhere. What is the probability that an asset will be completed at one point or another (based on the standard deviations and averages I have set up everywhere). What if Oracle databases are more difficult to work with than SQL Server. Those assets would be more likely to be slower. Maybe they deserve their own category on the logic table. Could it be that Java apps take more time for permissions to created? Should that be taken into account too?
+
+As I scroll through hundreds of cells and literally-half-a-screen Excel functions my eyes glaze over as I attempt to decipher the best solution for this. Let's look at some quick band-aid solutions I implemented by now. Keep in mind, the Excel tracker I created now looks like a mixture of retired circus memorabilia and the latest overpriced espresso machines on the market. 
+
+I resort again to Google, in hopes of finding the correct statistical regression to be applied. How do I tie everything together? As I skim through the search results the term Poisson comes to mind. By now I'm not sure if I glazed over it, or remembered it from class. Poisson? Poisson equation? How is that spelled? It's French I believe, was it Law of Poiseuille? My engineering background leaning me in that direction.
+
+> Editor's note:  Poisson distribution [Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution) is part of probability theory, and the Hagen–Poiseuille equation [Wikipedia](https://en.wikipedia.org/wiki/Hagen%E2%80%93Poiseuille_equation), is Fluid Dynamics. 
+
+In my coffee-enduced state, I focused on the Physics equation instead of the probability theory as a means of my solution. (I only came to the realization of this mistake very recently, and was my inspiration of this write up).
+
+[Excel functions]
+
+A few ideas come to mind. Let's create a new property called DifficultyRating which we can then assign to each of the assets. This should be a one time request from the PM's, and I'm pretty familiar with a lot of these by now anyway. This property can then be utilized to affect the skew or probability of best-case/worst-case scenario of each prediction.
+
+
+
+
+
+
 > Further complexity
->There is additional complexity involved the project. Not all assets utilize all work assignments. Some assets have no work assignments but need to be logged. 
 
 > Many extremely complicated Excel functions taking into consideration
 # The Result
@@ -80,7 +104,7 @@ At this point the word probability becomes more apparent in my mind. Because, th
 
 # The Outcome
 
-For those that utilize Agile, this story may have sounded more and more familiar. It's humorous to me today (even with the project having been Agile or Kanban inspired already). The original intent still feels to me a little like creating an early Jira/Confluence dashboard (or at least the inspiration behind the movement) - prior to knowing what Agile even was. As I have become a more experienced analyst and developer, I plan to keep the inexperience and ingenuity and somehow apply it in a more professional and experienced fashion.
+For those that utilize Agile, this story may have sounded more and more familiar. It's humorous to me today (even with the project having been Agile or Kanban inspired already). The original intent still feels to me a little like creating an early Jira/Confluence dashboard (or at least the inspiration behind the movement) - prior to knowing what Agile even was. As I become a yet more experienced analyst and developer, I plan to keep the inexperience and ingenuity and somehow apply it in a more educated and experienced fashion.
 
 Thanks for reading.
 
