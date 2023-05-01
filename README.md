@@ -70,10 +70,11 @@ A lot of unfinished (really quite many) worksheets trying to tie everything else
 
 # The Ingenuity
 --
+At this point the word probability becomes more apparent in my mind. Because, that's what statistics is, right? I should add probability here somewhere. What is the probability that an asset will be completed at point or another? As I scroll through hundreds of cells and columns 
 > Further complexity
 >There is additional complexity involved the project. Not all assets utilize all work assignments. Some assets have no work assignments but need to be logged. 
 
-> Many extremely complicated Excel functions taking into consideratio
+> Many extremely complicated Excel functions taking into consideration
 # The Result
 
 
