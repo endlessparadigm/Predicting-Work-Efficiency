@@ -1,5 +1,5 @@
 # Predicting-Work-Efficiency at Work
-Work project utilizing Hagen-Poiseuille equation and 4-dimensional models to predict efficiency-per-team completion rate of a corporate data management project.
+An anecdote related to a work project utilizing a Hagen-Poiseuille equation and 4-dimensional models to predict efficiency-per-team completion rate of a corporate data management project.
 
 ## Abstract
 I had a really fun time as a contractor nearly 10 years ago for a major company. There was the opportunity to create an estimation of when a major data infrastructure project was to be completed. I took it upon myself to create a complex Excel spreadsheet, and apply my statistics knowledge in hopes of assiting the project management team.
