@@ -1,5 +1,5 @@
 # Predicting Work Efficiency at Work
-A fun anecdote related to a work project utilizing the wrong statistics equation with successful results and 4-dimensional models to predict efficiency-per-team completion rate of a corporate data management project.
+A fun anecdote related to a work project where I utilized an incorrect statistics equation with successful results and 4-dimensional models to predict efficiency-per-team completion rate of a corporate data management project.
 
 ## Abstract
 I had a really fun time as a contractor nearly 10 years ago for a major company. There was the opportunity to create an estimation of when a major data infrastructure project was to be completed. I took it upon myself to create a complex Excel spreadsheet, and apply my statistics knowledge in hopes of assisting the project management team.
@@ -53,22 +53,14 @@ After a few weeks of working on my little side project, I now had a few workshee
 Charts and graphs!
 > This included Burndown rate for different categories of apps, an overall completion date, and estimate of when the budget would run out.
 
-[screenshot]
-
 Logic tables built into Excel. Not every asset requires every project step. This was asset category dependent. I took that into consideration.
 > These logic tables were set up to define which section(s) are required for different assets on the tracker (asset category dependent). This way the Excel function would know what to calculate for an asset. IF(VeganDish,NoMeatCalc)
-
-[screenshot]
 
 A lot of Excel functions meant for standard deviation and averages.
 > Maybe soon I'll find the correct analytics to apply and get a more accurate result!
 
-[screenshot]
-
 A lot of unfinished (really quite many) worksheets trying to tie everything else together.
 > We'll get there soon!
-
-[screenshot]
 
 A few additional ideas came to mind. Let's create a new property called DifficultyRating which we can then assign to each of the assets. This should be a one time request from the PM's, and I'm pretty familiar with a lot of these by now anyway. This property can then be utilized to affect the skew or probability of best-case/worst-case scenario of each prediction.
 
@@ -82,13 +74,13 @@ With the tracker about finished (ha!) we now have a tentative completion date se
 
 By this point in the story the word probability becomes more apparent in my mind. Because, that's what statistics is, kind of, right? I should add probability here somewhere. What is the probability that an asset will be completed at one point or another (based on the standard deviations and averages I have set up everywhere). What if Oracle databases are more difficult to work with than SQL Server. Those Oracle assets would likely take longer in the tracker pipeline. Maybe they deserve their own category on the logic table. Could it be that Java apps take more time for permissions to created? Should that be taken into account too?
 
-As I scroll through hundreds of cells and literally-half-a-screen Excel functions my eyes glaze over as I attempt to decipher the best solution for this.  Keep in mind, the Excel tracker I created now looks like a mixture of retired circus memorabilia and the latest overpriced espresso machines on the market. 
+As I scroll through hundreds of cells and literally-half-a-screen Excel functions my eyes glaze over as I attempt to decipher the best solution for this.  Keep in mind, the Excel tracker I created now looks like a mixture of circus memorabilia and the latest overpriced espresso machines on the market. 
 
 I resort again to Google, in hopes of finding the correct statistical regression to be applied. How do I tie everything together? As I skim through the search results the term Poisson comes to mind. By now I'm not sure if I glazed over it, or remembered it from class. Poisson? Poisson equation? How is that spelled? It's French I believe, was it Law of Poiseuille? My engineering background leaning me in that direction.
 
 > Editor's note:  Poisson distribution [Wikipedia](https://en.wikipedia.org/wiki/Poisson_distribution) is part of probability theory, and the Hagen–Poiseuille equation [Wikipedia](https://en.wikipedia.org/wiki/Hagen%E2%80%93Poiseuille_equation), is Fluid Dynamics. 
 
-In my coffee-induced state, I focused on the Physics equation instead of the probability theory as a means of my solution. (I only came to the realization of this name mistake very recently, and was my inspiration of this write up). 
+In my coffee-induced state, I focused on the Physics equation instead of the probability theory as a means of my solution. (I only came to the realization of this name mistake very recently, and was the inspiration of this write up). 
 
 ![image](https://user-images.githubusercontent.com/9099847/235520883-5ea5fd1c-9d53-4e1f-800b-d267819cc3e2.png)
 
@@ -118,7 +110,7 @@ Let's utilize our new fancy equation to estimate the time it takes for the diffe
 
 [Front view graphic]
 
-> Where we get complicated is when we try to understand that some applications may not need every component or section to be completed on its' behalf, hence a top view of our pipelines. 
+> Where we get complicated is when we try to understand that some applications may not need every component or section to be completed on its' own behalf, hence a top view of our pipelines. 
 
 [Top view]
 
@@ -145,14 +137,15 @@ By including the other calculations we then pinpoint our missing pieces.
 
 As I sip on my afternoon soda I try to pinpoint my missing piece. This is automated quite well, how do we make it smart? The spreadsheet needs to be defined in a way that it understands the calculations being executed, and knows how to optimize dependencies on its' own behalf. Could it output suggestions of whether we put our Workday app above our Sharepoint app in priority and have security start it in May as opposed to June? This could in turn create an opening for a different app to begin even earlier, helping to remove an unforeseen roadblock that is already present 3 months from now. Can Excel still handle all of this?!
 
+Let's create an additional calculation layer. We can map out the running averages for our estimates of each app category based on our logic table to a set of temporary 2-dimensional worksheets, iterate through a factor of possible variations, and create a resultant worksheet to mark the fluctuation and degree of success for all of the resulting events. We're basically creating multiple 2-dimensional arrays for the running averages, a matching running set of worksheets set perpendicularly to compute the fluctuations, and in the end feeding the resultants to an additional worksheet marking these computations. By now my mental treadmill is on the third story of our two floor building. 
 
 # The Result
 
-I received happy and positive remarks on the tracker. It was a helpful tool to assist the PM's and management for this major undertaking. I am happy to have had the opportunity to work on my little ambitious tracker. With more programming, DevOps, and analytics experience, I realize how large of an undertaking I underwent in making the tracker. I do believe this to be a yet useful tool that whispers to me for a modern upgrade. Maybe this bad boy will get the treatment it deserves by receiving some ML or Deep Learning TLC from me in the future. 
+I received many good reviews on the tracker. It was a helpful tool to assist the PM's and management for this major undertaking. My amibitious goal of multiple arrays was not in vain. I am happy to have had the opportunity to work on my little ambitious tracker. Was it accurate? It was accurate enough. With more programming, DevOps, and analytics experience, I realize how large of an undertaking I underwent in making the tracker. I do believe this to be a yet useful tool that whispers to me for a modern upgrade. Maybe this bad boy will get the treatment it deserves by receiving some ML or Deep Learning TLC from me in the future. 
 
 # The Conclusion
 
-For those that utilize Agile, this story may have sounded more and more familiar. It's humorous to me today (even with the project having been Agile or Kanban inspired already). The original intent still feels to me a little like creating an early Jira/Confluence dashboard (or at least the inspiration behind the movement) - prior to knowing what Agile even was. As I become a yet more experienced analyst and developer, I plan to keep my original inexperience and ingenuity and somehow apply it in a more educated and experienced fashion.
+For those that utilize Agile, this story may have sounded more and more familiar. It's humorous to me today (even with the project having been Agile or Kanban inspired already). The original intent still feels to me a little like creating an early Jira/Confluence dashboard (or at least the inspiration behind the movement) - prior to knowing what Agile even was. I also learned that Statistics is not quite an intuitive subject as many of us wish for it to be. I was more comfortable wrangling an engineering equation rather than accomodating for the form in which Stats operates on. As I become a yet more experienced analyst and developer, I intend to keep my original ingenuity and apply my experience in an increasingly more educated and well-thought-out fashion.
 
 Thanks for reading.
 
