@@ -94,7 +94,7 @@ The fluid viscosity (µ) would be similar to the difficulty rating created earli
 
 The length of the pipe (L) is the amount of time for one team to send the work to a subsequent team.
 
-The pipe radius, R, would be akin to our FTE (Full Time Equivalent) - or basically a numeric or factoric(?!) representation of the amount of man-hours available at any point in time within the cylinder or pipeline. We have project hours logged thanks to PPM, this part should be easy.
+The pipe radius, R, would be akin to our FTE (Full Time Equivalent) - or basically a numeric or factoric(?) representation of the amount of man-hours available at any point in time within the cylinder or pipeline. We have project hours logged thanks to PPM, this part should be easy.
 
 The volumetric flow rate, Q is the amount of time it takes for the fluid to reach the End point from the Start point. (We can also apply this for determining the time it takes inside the bucket such as T1s > T1e (see below), as opposed to between buckets (or bucket-transfer) T1 > T2). Now I just need to explain this to the leadership team! I think they'll be impressed.
 
