@@ -136,6 +136,8 @@ As I sip on my afternoon soda I try to pinpoint my missing piece. This is automa
 
 Let's create an additional calculation layer, I thought to myself. We can map out the running averages for our estimates of each app category based on our logic table to a set of temporary 2-dimensional worksheets, iterate through a series of factors of possible variations, and create a resultant worksheet to mark the fluctuation and degree of success for all of the resulting events. We're basically creating multiple 2-dimensional arrays for the running averages, a matching running set of worksheets set perpendicularly to the 2-D arrays as a way to track these fluctuations, and in the end feeding the resultants to an additional worksheet recording these computations. 
 
+# The Compromise
+
 By now my mental treadmill is on the third story of our two floor building. By this point, I simply left the spreadsheet as it was as I began to receive other responsibilities at my job. I believe the final or specific portion that led to me losing interest on it, was having the temporary arrays (mid-operation) select, and tentatively place different order or priority of work in the queue in order to find an earlier target completion date in the calculation. Next time I'll just use Python.
 
 # The Result
