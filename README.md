@@ -104,40 +104,37 @@ We can focus on the time it takes (lag time) for one portion of the work to be c
 
 Let's utilize our new fancy equation to estimate the time it takes for the different teams to send and receive their work. We have the project hours logged for our staff, so we can simply accomodate for Frank always completing his assignment on Mondays, and Claire only reading her emails after lunch time (and any other possibility, given our spreadsheet). 
 
-> So to re-iterate with Hagen-Poiseuille equation (is it lunch yet?)
+> So to re-iterate on our Hagen-Poiseuille equation (is it lunch yet?)
 
-> From the front view of my Excel sheet explanation, we can see the different pipelines as dependencies, with the additional grey area of the lag time between buckets or sections. Emails are not read immediately, resources go on vacation, and we simply account for the discrepancy given that we have a lot of data from this multi-year project.
+> From the front view of the pipelines I had built already, we can see the different sections as dependencies, with the additional grey area demonstrating the lag time between buckets or sections. Emails are not read immediately, resources go on vacation, and we simply account for the discrepancy given that we have a lot of data from this multi-year project.
 
-[Front view graphic]
+![image](https://user-images.githubusercontent.com/9099847/235752558-8b578e04-369a-4210-861d-a980539b71ba.png)
 
-> Where we get complicated is when we try to understand that some applications may not need every component or section to be completed on its' own behalf, hence a top view of our pipelines. 
+> The discrepancy of rectangle sizes above is to depict the difference in our pipe radius, R. Where we get complicated is when we try to understand that some applications may not need every component or section to be completed on its' own behalf, hence a top view of our pipelines:
 
-[Top view]
+![image](https://user-images.githubusercontent.com/9099847/235753161-28d49041-ed16-4c3a-bb08-fa28e7df63eb.png)
 
 The model that we have above actually works great. We have different pipelines, and a little bit of VBA or Excel function manipulation which should provide us with this equation working the same where intended. I also kept my previous calculations to compare the two estimates and to keep one another in check.
 
-
 # The Exaggeration
 
-This is where my inexperience outshined my wit and willpower. We have to take this one step further, I thought. We have a weighted estimate of when each component is to be completed. We also now have an estimate on the delay present for components to be handed off to other teams. We even have the running averages and next-on-queue dependencies set up. The spreadsheet is quite operational. 
+This is where my inexperience begin to outshine my wit and willpower. We have to take this one step further, I thought. We have a weighted estimate of when each component is to be completed. We also now have an estimate on the delay present for components to be handed off to other teams. We even have the running averages and next-on-queue dependencies set up. The spreadsheet is quite operational. 
 
 What we are missing is the final tie in. The spreadsheet is dynamic in that it waits for the next item in queue based on dates, but calculates the overall effort in its' own unit of measurement (It almost smells like machine learning!). Simply put, the total work remaining is seen as a big tub of mysterious liquid, and the calculator simply compiles this as manpower. The output of this mysterious liquid becomes a known variable, re-feeding the calculator to make it more accurate. 
 
 See below for an example of how we are feeding our calculator with our pipeline.
 
-[Screenshot of bucket]
+![image](https://user-images.githubusercontent.com/9099847/235750844-ac3c947a-0601-47dc-83d9-db9526904414.png)
 
-> So this bucket of mush is a resultant of actual people working, and the actual digital (or paper) deliverable being provided. It probably does look like mush when you mix it all up.
+> So this bucket of metaphorical viscous liquid is a resultant of actual people working, and the actual digital (or paper) deliverable being provided. It probably does look like mush when you mix it all up.
 
-By including the other calculations we then pinpoint our missing pieces.
+We want to utilize the actual values above to help calculate the future values calculated below. We repeat this each time we get more data to ensure a more accurate estimate.
 
-[screenshot] 
-
-[Add explanation on the above]
+![image](https://user-images.githubusercontent.com/9099847/235751153-98533812-1ca0-4873-88a5-d70e49f9d73f.png)
 
 As I sip on my afternoon soda I try to pinpoint my missing piece. This is automated quite well, how do we make it smart? The spreadsheet needs to be defined in a way that it understands the calculations being executed, and knows how to optimize dependencies on its' own behalf. Could it output suggestions of whether we put our Workday app above our Sharepoint app in priority and have security start it in May as opposed to June? This could in turn create an opening for a different app to begin even earlier, helping to remove an unforeseen roadblock that is already present 3 months from now. Can Excel still handle all of this?!
 
-Let's create an additional calculation layer. We can map out the running averages for our estimates of each app category based on our logic table to a set of temporary 2-dimensional worksheets, iterate through a factor of possible variations, and create a resultant worksheet to mark the fluctuation and degree of success for all of the resulting events. We're basically creating multiple 2-dimensional arrays for the running averages, a matching running set of worksheets set perpendicularly to compute the fluctuations, and in the end feeding the resultants to an additional worksheet marking these computations. By now my mental treadmill is on the third story of our two floor building. 
+Let's create an additional calculation layer, I thought to myself. We can map out the running averages for our estimates of each app category based on our logic table to a set of temporary 2-dimensional worksheets, iterate through a factor of possible variations, and create a resultant worksheet to mark the fluctuation and degree of success for all of the resulting events. We're basically creating multiple 2-dimensional arrays for the running averages, a matching running set of worksheets set perpendicularly to compute the fluctuations, and in the end feeding the resultants to an additional worksheet marking these computations. By now my mental treadmill is on the third story of our two floor building. By this point, I simply left the spreadsheet as it was as I began to receive other responsibilities at my job. I believe the final or specific portion that led to me giving up on it, was having the temporary arrays (mid-operation) select, and tentatively place different order or priority of work in the queue in order to find an earlier target completion date in the calculation.
 
 # The Result
 
