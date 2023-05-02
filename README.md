@@ -74,7 +74,7 @@ With the tracker about finished (ha!) we now have a tentative completion date se
 
 By this point in the story the word probability becomes more apparent in my mind. Because, that's what statistics is, kind of, right? I should add probability here somewhere. What is the probability that an asset will be completed at one point or another (based on the standard deviations and averages I have set up everywhere). What if Oracle databases are more difficult to work with than SQL Server? Those Oracle assets would likely require more time in the tracker pipeline. Maybe they deserve their own category on the logic table. Could it be that Java apps take more time for permissions to be created? Should that be taken into account too?
 
-As I scroll through hundreds of cells and literally-half-a-screen Excel functions my eyes glaze over as I attempt to decipher the best solution for this. Keep in mind, the Excel tracker I created now looks like a mixture of circus memorabilia and the latest overpriced espresso machines on the market. 
+As I scroll through hundreds of cells and literally-half-a-screen Excel functions my eyes glaze over as I attempt to decipher the best solution for this. Keep in mind, the Excel tracker I created now looks like a mixture of circus props and the latest overpriced espresso machines on the market. 
 
 I resort again to Google, in hopes of finding the correct statistical regression to be applied. How do I tie everything together? As I skim through the search results the term Poisson comes to mind. By now I'm not sure if I read over it, or remembered it from class. Poisson? Poisson equation? How is that spelled? It's French I believe, was it Law of Poiseuille? My engineering background leaning me in that direction.
 
