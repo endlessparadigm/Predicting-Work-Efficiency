@@ -117,7 +117,7 @@ Let's utilize our new fancy equation to estimate the time it takes for the diffe
 The model that we have above actually works great. We have different pipelines, and a little bit of VBA or Excel function manipulation which should provide us with this equation working the same where intended. I also kept my previous calculations to compare the two estimates and to keep one another in check.
 
 
-# The Exageration
+# The Exaggeration
 
 This is where my inexperience outshined my wit and willpower. We have to take this one step further, I thought. We have a weighted estimate of when each component is to be completed. We also now have an estimate on the delay present for components to be handed off to other teams. We even have the running averages and next-on-queue dependencies set up. The spreadsheet is quite operational. 
 
@@ -145,7 +145,7 @@ I received many good reviews on the tracker. It was a helpful tool to assist the
 
 # The Conclusion
 
-For those that utilize Agile, this story may have sounded more and more familiar. It's humorous to me today (even with the project having been Agile or Kanban inspired already). The original intent still feels to me a little like creating an early Jira/Confluence dashboard (or at least the inspiration behind the movement) - prior to knowing what Agile even was. I also learned that Statistics is not quite an intuitive subject as many of us wish for it to be. I was more comfortable wrangling an engineering equation rather than accomodating for the form in which Stats operates on. As I become a yet more experienced analyst and developer, I intend to keep my original ingenuity and apply my experience in an increasingly more educated and well-thought-out fashion.
+For those that utilize Agile, this story may have sounded more and more familiar. It's humorous to me today (even with the project having been Agile or Kanban inspired already). The original intent still feels to me a little like creating an early Jira/Confluence dashboard (or at least the inspiration behind the movement) - prior to knowing what Agile even was. I also learned that Statistics is not quite an intuitive subject as many of us wish for it to be. I was more comfortable wrangling an engineering equation rather than accomodating for the form in which Stats operates on. As I become a yet more experienced analyst and developer, I intend to keep my optimistic ingenuity and apply my experience in an continuously more educated and better defined fashion.
 
 Thanks for reading.
 
