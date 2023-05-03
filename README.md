@@ -1,5 +1,6 @@
 # Predicting Work Efficiency at Work
-A fun anecdote related to a work project where I utilized an incorrectly named statistics equation with successful results and multi-dimensional statistical models to predict deliverable completion rates and team-based efficiency of a corporate data management project.
+A funny anecdote related to a work project where I utilized the wrong math equation by mistake with successful results to predict asset completion rates and team-based efficiency for an enterprise data management project.
+(15 min. read)
 
 ## Abstract
 I had a really fun time as a contractor nearly 10 years ago for a major company. There was the opportunity to create an estimation of when a major data infrastructure project was to be completed. I took it upon myself to create a complex Excel spreadsheet, and apply my statistics knowledge in hopes of assisting the project management team.
