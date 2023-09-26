@@ -1,5 +1,5 @@
 # Predicting Work Efficiency at Work
-A funny anecdote related to a work project where I utilized the wrong math equation by mistake with successful results to predict asset completion rates and team-based efficiency for an enterprise data management project.
+A funny anecdote where I utilized the wrong math equation by mistake yielding successful results in predicting the success of a major corporate data privacy project. 
 (15 min. read)
 
 ## Abstract
