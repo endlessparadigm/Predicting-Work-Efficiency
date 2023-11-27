@@ -1,6 +1,6 @@
 # Predicting Work Efficiency at Work
-A funny anecdote where I utilized the wrong math equation by mistake yielding successful results in predicting the success of a major corporate data privacy project. 
-(15 min. read)
+A funny anecdote where I utilized a math equation by mistake yielding successful results in predicting the success of a data privacy compliance project.
+(25 min. read)
 
 ## Abstract
 I had a really fun time as a contractor nearly 10 years ago for a major company. There was the opportunity to create an estimation of when a major data infrastructure project was to be completed. I took it upon myself to create a complex Excel spreadsheet, and apply my statistics knowledge in hopes of assisting the project management team.
