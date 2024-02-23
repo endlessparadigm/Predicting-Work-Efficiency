@@ -1,5 +1,5 @@
 # Predicting Work Efficiency at Work
-A funny anecdote where I utilized a math equation by mistake yielding successful results in predicting the success of a data privacy compliance project.
+A funny anecdote where I utilized a physics equation to predict the outcome of a data compliance project.
 (15 min. read)
 
 ## Abstract
